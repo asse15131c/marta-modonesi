@@ -1,0 +1,26 @@
+.link {
+  @apply flex;
+}
+
+.wrapper {
+  @apply text-sm uppercase leading-none relative;
+  @apply overflow-hidden block;
+}
+
+.main,
+.secondary {
+  @apply transition-transform ease-standard duration-500;
+}
+
+.secondary {
+  @apply absolute inline-block;
+}
+@media (hover: hover) and (pointer: fine) {
+  .wrapper:hover .main {
+    @apply transform-gpu -translate-y-full;
+  }
+
+  .wrapper:hover .secondary {
+    @apply transform-gpu -translate-y-full;
+  }
+}

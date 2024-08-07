@@ -1,0 +1,25 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Lorem anim excepteur Lorem reprehenderit nulla anim dolore nostrud do et incididunt proident laborum. Ipsum ipsum pariatur ex nostrud est amet consectetur culpa ullamco proident. Cillum anim do qui tempor cupidatat aute nostrud veniam."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "draw",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

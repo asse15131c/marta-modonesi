@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-size: 43px;
+
+  @screen md {
+    --header-size: 65px;
+  }
+
+  @screen lg {
+    --header-size: 109px;
+  }
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply text-base font-neueHaasUnica text-black bg-white h-[300vh];
+}
+
+*[data-initial-hidden] {
+  opacity: 0;
+  visibility: hidden;
+}

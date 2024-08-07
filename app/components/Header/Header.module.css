@@ -1,0 +1,21 @@
+.header {
+  @apply fixed top-0 left-0 right-0 px-xs;
+  @apply text-md md:text-lg lg:text-xl leading-[0.9];
+}
+
+.header h1 {
+  @apply -ml-1 z-20 relative pointer-events-none;
+}
+
+.row {
+  @apply flex items-start gap-sm;
+}
+
+.list {
+  @apply flex gap-base;
+  @apply text-sm uppercase leading-none;
+}
+
+.role {
+  @apply relative z-20 pointer-events-none;
+}

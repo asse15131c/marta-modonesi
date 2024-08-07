@@ -1,0 +1,50 @@
+.container {
+  @apply flex flex-col py-0.5;
+  @apply lg:hidden;
+}
+
+.button {
+  @apply text-sm uppercase relative z-20 flex flex-col w-16 text-start;
+  @apply inline-block relative pointer-events-auto overflow-hidden;
+}
+
+.modal {
+  @apply fixed inset-0 z-0 pointer-events-none;
+}
+
+.inner {
+  @apply w-full h-svh bg-yellow pt-header;
+  @apply flex flex-col items-center p-xs;
+}
+
+.nav {
+  @apply h-full flex flex-col justify-center items-center gap-lg;
+}
+
+.icon {
+  @apply w-full h-auto flex-none;
+}
+
+.main {
+  @apply text-xl normal-case flex flex-col justify-center items-center leading-tight;
+}
+
+.secondary {
+  @apply text-md normal-case flex flex-col gap-sm justify-center items-center;
+}
+
+.footer {
+  @apply w-full flex justify-between text-sm uppercase leading-none;
+}
+
+.link {
+  @apply overflow-hidden inline-block relative pointer-events-auto;
+}
+
+.link[data-active="true"] {
+  @apply opacity-40;
+}
+
+.close {
+  @apply absolute opacity-40;
+}
